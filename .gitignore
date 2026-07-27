@@ -1,18 +1,38 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
 
-# Other files and folders
+# OS Files
+.DS_Store
+Thumbs.db
+.env.local
+
+# Logs
+npm-debug.log
+yarn-debug.log
+*.log
+
+# Node (jika nanti pakai)
+node_modules/
+.npm
+
+# Build
+dist/
+build/
+
+# IDE
+.classpath
+.project
+.c9/
+*.launch
 .settings/
+*.sublime-workspace
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Misc
+.history
+.cache
